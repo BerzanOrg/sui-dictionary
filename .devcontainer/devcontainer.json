@@ -1,0 +1,14 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "fish",
+                "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+                "workbench.colorTheme": "Default Dark Modern"
+            }
+        }
+    }
+}
