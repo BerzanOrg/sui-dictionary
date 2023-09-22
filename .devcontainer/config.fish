@@ -8,7 +8,10 @@ function fish_prompt
 end
 
 
-set fish_greeting ''
+function fish_greeting
+    set_color brgreen
+    echo "Welcome to the monorepo of $(set_color brcyan)Sui Dictionary$(set_color brgreen)."
+end
 
 set fish_color_command brgreen
 
