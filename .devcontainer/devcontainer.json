@@ -10,7 +10,9 @@
                 "workbench.colorTheme": "Default Dark Modern"
             },
             "extensions": [
-                "svelte.svelte-vscode"
+                "svelte.svelte-vscode",
+                "bradlc.vscode-tailwindcss",
+                "heybourn.headwind"
             ]
         }
     }
